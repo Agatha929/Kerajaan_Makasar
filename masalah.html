@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kehidupan di Kerajaan Makassar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #16a085;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .content {
+      padding: 50px 15px;
+    }
+    .content img {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 20px;
+    }
+    .hidden-section {
+      display: none;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 15px 0;
+    }
+    .tab-buttons button {
+      margin: 5px;
+    }
+    @media (min-width: 768px) {
+      .content h2 {
+        font-size: 2rem;
+      }
+    }
+    @media (min-width: 1024px) {
+      .content h2 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kehidupan di Kerajaan Makassar</h1>
+</header>
+
+<!-- NAVIGASI -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="masalah.html">Kehidupan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="beranda.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="orientasi.html">Sejarah</a></li>
+        <li class="nav-item"><a class="nav-link" href="reorientasi.html">Keruntuhan</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link" href="pembuat.html">Tentang</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- BAGIAN UTAMA -->
+<section class="content container" id="main-section">
+  <img src="https://asset.kompas.com/crops/C4-QVObbHCjcHtI4Eo24qWN1KSQ=/0x0:1023x682/750x500/data/photo/2021/08/18/611d24c942808.jpg" alt="Kehidupan">
+  <h2>Apa saja kehidupan di Makassar?</h2>
+  <p>Kerajaan Makassar memiliki kehidupan yang sangat dinamis, meliputi aspek politik, sosial, ekonomi, dan budaya. Masing-masing aspek tersebut memiliki ciri khas tersendiri yang membentuk identitas kerajaan ini.</p>
+
+  <div class="row text-center mb-4">
+    <h4>Tekan salah satu tombol di bawah untuk mengetahui lebih lanjut:</h4>
+  </div>
+
+  <div class="tab-buttons text-center mt-4">
+    <button class="btn btn-outline-success" onclick="showSection('politik')">Kehidupan Politik</button>
+    <button class="btn btn-outline-success" onclick="showSection('sosial')">Kehidupan Sosial</button>
+    <button class="btn btn-outline-success" onclick="showSection('ekonomi')">Kehidupan Ekonomi</button>
+    <button class="btn btn-outline-success" onclick="showSection('budaya')">Kehidupan Budaya</button>
+  </div>
+</section>
+
+<!-- HALAMAN TAMBAHAN -->
+<section class="content container hidden-section" id="politik">
+  <img src="https://muslimahnews.net/wp-content/uploads/2023/12/gowa-tallo-sulsel-GNFI.jpg" 
+       alt="Politik"
+       width="100"
+       height="100">
+  <h2>Kehidupan Politik</h2>
+  <p>Perkembangan pesat kerajaan makasar tidak terlepas dari raja yang pernah memerintahnya. yaitu seperti berikut:</p>
+  <ol>
+    <li>Sultan Alauddin</li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sultan_Alauddin.png/250px-Sultan_Alauddin.png" width="2px" height="2px" alt="Politik"/>
+      <p>Alauddin adalah raja pertama semenjak kerajaan makasar terbentuk.di bawah pemerintahannya, makassar mulai menempatkan diri sebagai salah satu pusat perdagangan di nusantara. Ia sangat memperhatikan pengembangan pelayaran dan perdagangan. pengembangan itu membawa kemakmuran bagi makasar. namun, setelah Alauddin wafat, keadaan pemerintahan tidak diketahui dengan pasti.</p>
+    <li>Sultan Hasanuddin</li>
+      <img src="https://roboguru-forum-cdn.ruangguru.com/4dc16b1a-e05c-4f93-a030-e855ae271142.jpg" alt="Politik">
+      <p>Raja yang berhasil membawa makassar pada pada puncak kejayaan nya. Makasar memperluas wilayah kekuasaan ke seluruh sulawesi selatan. Kemudian, dalam rangka memantapkan posisinya sebagai pusat perdagangan, Makassar menanamkan pengaruhnya ke nusa tenggara. Akibatnya, pelayaran dan perdagangan di sekitar sulawesi selatan dan nusa tenggara berada di bawah kekuasaan makasar. Keadaan itu mengkhawatirkan VOC yang berkedudukan di ambon. kapal VOC tidak dapat leluasa lagi berlayar ke bagian barat Indonesia karena harus melalui perairan yang dikuasai oleh kerajaan makassar sebagai pusat perdagangan di bagian timur Indonesia. Dengan kata lain, Voc bermaksud menanamkan pengaruhnya di makassar. Guna mencapai maksudnya itu, Belanda meminta kesediaan makasar memberi hak monopoli kepada VOC. Permintaan itu ditolak oleh sultan Hasanuddin. Akibatnya, terjadi peperangan dan voc berupaya memblokir pelabuhan sombaopu. namun, usaha itu tidak berhasil karena kapal-kapal makassar berhasil lolos dari pemblokiran tersebut. Bahkan, Pasukan Makassar sempat menyerang kedudukan voc di ambon meskipun tidak berhasil merebutnya. Makasar mulai terdesak setelah voc menjalin kerjasama dengan raja Bone, Aru Palaka. Akhirnya VOC dapat menanamkan pengaruhnya di makassar melalui perjanjian Bongaya. Isi perjanjian Bongaya seperti berikut:</p>
+      <ul>
+        <li>Makasar menyerahkan beberapa tempat strategis kepada VOC</li>
+        <li>VOC berhak memegang monopoli perdagangan di makasar</li>
+        <li>VOC diizinkan mendirikan benteng di makassar (Benteng Rotterdam)</li>
+      </ul>
+      <p>	Meskipun kalah sultan hasanuddin disegani oleh VOC karena keberaniannya. Ia dijuluki de Haan van de Oosten yang berarti ayam jantan dari timur.</p>
+    <li>Sultan Mapasomba</li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe7bZx74PYBeGd7ON8hiXiFUodOKec8gBhSAHlUuQRRUdYCr0vShLv3ICl0DahF4TdZYI&usqp=CAU" alt="Politik">
+      <p>sultan hasanuddin digantikan oleh putranya, sultan mapasomba. seperti ayahnya ia bersikap menentang kehadiran VOC di makasar. bahkan, ia lebih keras dari ayahnya. akan tetapi, sikapnya itu dilakukan tanpa perhitungan. adanya benteng rotterdam membuat kekuasaan militer VOC semakin kuat, sedangkan pasukan makassar tidak sekuat dahulu. akibatnya, dengan mudah pasukan makasar dikalahkan. sejak saat itu, VOC berkuasa sepenuhnya atas kerajaan makasar.</p>
+  </ol>
+  <button class="btn btn-secondary" onclick="backToMain()">Kembali</button>
+</section>
+
+<section class="content container hidden-section" id="sosial">
+  <img src="https://www.dailysports.id/upload/large/b372c8a8e916bd3f7f9baf10ba38aa3e.png" alt="Sosial">
+  <h2>Kehidupan Sosial</h2>
+  <p>Kehidupan sosial Kerajaan Makassar pada masa kejayaannya sangat dipengaruhi oleh ajaran agama Islam yang menjadi fondasi utama dalam tata kehidupan masyarakatnya. Islam tidak hanya menjadi agama mayoritas, tetapi juga membentuk nilai-nilai budaya, adat istiadat, serta sistem pemerintahan di kerajaan tersebut. Hingga saat ini, mayoritas masyarakat Makassar tetap memeluk agama Islam sebagai warisan yang terus dilestarikan dari masa lampau. Peranan penting dalam penyebaran dan penguatan ajaran Islam di Kerajaan Makassar tidak bisa dilepaskan dari sosok dua pemimpin besar, yakni Sultan Alauddin dari Kerajaan Gowa dan Sultan Abdullah dari Kerajaan Tallo. Kedua sultan ini dikenal sebagai dwitunggal yang sangat gigih dan berdedikasi dalam mengislamkan rakyatnya, serta menjadikan agama Islam sebagai pedoman dalam mengatur kehidupan sosial, politik, dan ekonomi kerajaan. Sultan Alauddin dan Sultan Abdullah tidak hanya fokus pada pengembangan agama Islam, tetapi juga berambisi memperluas wilayah kekuasaan Kerajaan Makassar. Mereka berhasil memperluas pengaruh kerajaan hingga tidak hanya mencakup pulau Sulawesi dan daerah sekitarnya, tetapi juga sampai ke bagian timur Pulau Sumbawa dan Pulau Lombok. Ekspansi wilayah ini dilakukan dengan berbagai cara, baik melalui jalur diplomasi maupun kekuatan militer. Melalui langkah ini, Kerajaan Makassar semakin memperkuat posisinya sebagai kekuatan dominan di kawasan timur Indonesia, sekaligus menjadi pusat perdagangan dan penyebaran agama Islam yang sangat berpengaruh di wilayah tersebut. Selain memperluas wilayah, kedua sultan ini juga sangat memperhatikan kesejahteraan rakyatnya. Mereka memegang teguh keyakinan bahwa Tuhan menciptakan lautan sebagai karunia yang harus dinikmati dan dimanfaatkan oleh seluruh hambanya secara adil dan bijaksana. Prinsip ini menjadi landasan dalam pengelolaan sumber daya alam laut yang kaya di wilayah kerajaan. Pemerintahan mereka mendorong kemajuan dalam bidang pelayaran, perikanan, dan perdagangan yang memberikan dampak positif terhadap kesejahteraan masyarakat Makassar. Berkat kebijakan yang berpihak kepada rakyat dan pengelolaan sumber daya yang baik, kehidupan sosial di Kerajaan Makassar berjalan harmonis dengan kemakmuran yang terus meningkat. Pengaruh ajaran Islam dalam kehidupan sosial Kerajaan Makassar juga terlihat dalam tata hukum dan adat istiadat yang berlaku. Banyak aturan yang diambil dari syariat Islam, sehingga kerajaan ini menjadi contoh dalam penerapan hukum Islam di wilayah Nusantara. Dengan demikian, Kerajaan Makassar bukan hanya berjaya sebagai pusat perdagangan dan politik, tetapi juga sebagai pusat penyebaran dan perkembangan Islam di kawasan timur Indonesia. Kepemimpinan Sultan Alauddin dan Sultan Abdullah menjadi tonggak penting yang membawa Kerajaan Makassar mencapai masa kejayaan yang penuh dengan kemajuan di berbagai aspek kehidupan masyarakatnya.</p>
+  <button class="btn btn-secondary" onclick="backToMain()">Kembali</button>
+</section>
+
+<section class="content container hidden-section" id="ekonomi">
+  <img src="https://www.dosenpendidikan.co.id/wp-content/uploads/2023/11/Screenshot-2023-11-08-at-00.56.22.png" alt="Ekonomi">
+  <h2>Kehidupan Ekonomi</h2>
+  <p>Kerajaan Makassar yang terletak di bagian barat daya Pulau Sulawesi memiliki letak yang sangat strategis, yakni berada di tengah-tengah jalur perdagangan penting antara Maluku dan Malaka. Posisi geografis ini menjadikan Makassar sebagai persimpangan utama pelayaran dan perdagangan di kawasan Nusantara pada masa itu. Berkat letaknya yang sangat menguntungkan, Kerajaan Makassar berkembang pesat menjadi pusat perdagangan yang ramai dan menjadi magnet bagi para pedagang dari berbagai penjuru dunia. Kerajaan ini mampu memanfaatkan posisi strategisnya untuk membangun kekuatan ekonomi yang bertumpu pada kegiatan perdagangan dan pelayaran. Masyarakat Sulawesi, khususnya Makassar, terkenal sebagai pelaut ulung dan pemberani dalam mengarungi samudra. Keahlian mereka dalam mengemudikan kapal, mengatur pelayaran, serta keberanian menghadapi berbagai tantangan di laut menjadikan mereka sangat dihormati di dunia maritim. Jenis kapal tradisional seperti pinisi dan lambo menjadi simbol kebanggaan masyarakat Makassar. Kapal-kapal ini tidak hanya digunakan untuk perdagangan lokal, tetapi juga untuk menjelajah dan menguasai jalur pelayaran di wilayah timur Indonesia dan sekitarnya. Melalui kapal-kapal tersebut, para pedagang Makassar memainkan peran penting dalam jaringan perdagangan di Indonesia dan Asia Tenggara secara umum. Kerajaan Makassar juga menjadi tempat singgah berbagai pedagang asing yang datang dari luar Nusantara, seperti bangsa Portugis, Inggris, dan Denmark. Kedatangan para pedagang asing ini bukan hanya membawa barang dagangan, tetapi juga memperkaya interaksi budaya dan ekonomi di kerajaan. Kerajaan Makassar mampu menjalin hubungan dagang yang luas dan beragam, sehingga menjadi salah satu pelabuhan tersibuk dan paling penting di kawasan timur Indonesia. Untuk mengatur dan mengelola pelayaran serta perdagangan yang semakin kompleks, Kerajaan Makassar menyusun sistem hukum perdagangan yang dikenal dengan nama Ade Allopiloping Bicaranna Pabbahi’e. Hukum ini berfungsi sebagai aturan baku yang mengatur hak dan kewajiban para pedagang serta pelayaran di wilayah kerajaan. Dengan adanya hukum tersebut, proses perdagangan menjadi lebih teratur, aman, dan adil bagi semua pihak yang terlibat. Pembuatan dan penerapan hukum ini menunjukkan bahwa Kerajaan Makassar tidak hanya mengandalkan kekuatan maritim dan ekonomi, tetapi juga mengutamakan tata kelola yang baik sebagai fondasi kemajuan kerajaan. Secara keseluruhan, letak strategis, keahlian masyarakat dalam pelayaran, dan sistem hukum yang kuat menjadikan Kerajaan Makassar sebagai salah satu kerajaan maritim terbesar dan terpenting dalam sejarah Indonesia. Pengaruhnya tidak hanya terbatas di Sulawesi, tetapi juga menyebar luas ke wilayah Nusantara dan jalur perdagangan internasional pada masa itu.</p>
+  <button class="btn btn-secondary" onclick="backToMain()">Kembali</button>
+</section>
+
+<section class="content container hidden-section" id="budaya">
+  <img src="https://assets.kompasiana.com/items/album/2019/09/05/phinisi-5d70fbe6097f360b12685bd2.jpg?t=o&v=300" alt="Budaya">
+  <h2>Kehidupan Budaya</h2>
+  <p>Karena Kerajaan Makassar memiliki sifat maritim yang sangat kuat, kebudayaan yang berkembang di dalamnya sangat dipengaruhi oleh kondisi dan kehidupan laut. Kehidupan masyarakat yang bergantung pada laut dan pelayaran menciptakan berbagai inovasi dan karya budaya yang unik dan khas. Salah satu yang paling terkenal adalah pembuatan kapal tradisional jenis pinisi. Kapal pinisi ini menjadi simbol kebanggaan bagi masyarakat Sulawesi Selatan, khususnya Kerajaan Makassar. Kapal ini bukan hanya alat transportasi dan perdagangan, tetapi juga lambang keahlian serta kecerdasan masyarakat dalam menguasai teknologi pelayaran. Sampai saat ini, kapal pinisi masih menjadi kebanggaan bangsa Indonesia dan dikenal di seluruh dunia sebagai warisan budaya maritim yang sangat bernilai. Selain keahlian dalam pembuatan kapal dan alat penangkap ikan, masyarakat Kerajaan Makassar juga mengembangkan berbagai aspek kebudayaan lain yang menunjukkan tingkat peradaban yang tinggi. Salah satunya adalah pengembangan seni sastra melalui kitab Lontara. Kitab Lontara merupakan warisan sastra yang berisi catatan sejarah, adat istiadat, serta ilmu pengetahuan yang menjadi pedoman hidup masyarakat Makassar. Kitab ini dibuat dengan menggunakan aksara khas yang kemudian dikenal sebagai aksara Lontara. Melalui kitab ini, masyarakat Kerajaan Makassar tidak hanya mencatat sejarah mereka, tetapi juga mengembangkan pengetahuan dalam berbagai bidang, termasuk hukum adat dan tradisi. Selain sastra, Kerajaan Makassar juga dikenal mengembangkan seni bangunan dan seni suara. Seni bangunan terlihat dalam bentuk arsitektur tradisional yang khas, yang menyesuaikan diri dengan lingkungan maritim serta iklim tropis daerah tersebut. Sementara itu, seni suara atau seni musik juga berkembang dengan berbagai alat musik tradisional dan bentuk pertunjukan yang mengiringi berbagai acara adat dan ritual keagamaan masyarakat Makassar. Kebudayaan-kebudayaan ini menunjukkan bahwa Kerajaan Makassar bukan hanya unggul di bidang maritim dan perdagangan, tetapi juga memiliki kekayaan budaya yang beragam dan kompleks. Namun, sangat disayangkan bahwa banyak dari karya dan peninggalan kebudayaan Kerajaan Makassar tidak banyak diketahui atau tersimpan hingga saat ini. Hal ini disebabkan oleh kurangnya artefak yang berhasil ditemukan dan dipelihara, sehingga sebagian besar warisan budaya tersebut hanya diketahui melalui catatan sejarah dan cerita turun-temurun. Meski demikian, budaya dan karya-karya yang masih ada tetap menjadi bukti kuat bahwa Kerajaan Makassar pernah mencapai tingkat peradaban yang tinggi dan memberikan kontribusi besar terhadap perkembangan kebudayaan di Indonesia, khususnya di wilayah timur.</p>
+  <button class="btn btn-secondary" onclick="backToMain()">Kembali</button>
+</section>
+
+<footer class="text-center py-4">
+  <p>&copy; 2025 Ensiklopedia Digital</p>
+</footer>
+
+<!-- SCRIPT -->
+<script>
+  function showSection(sectionId) {
+    // Sembunyikan semua konten tambahan
+    document.querySelectorAll('.hidden-section').forEach(section => {
+      section.style.display = 'none';
+    });
+
+    // Sembunyikan konten utama
+    document.getElementById('main-section').style.display = 'none';
+
+    // Tampilkan konten yang dipilih
+    const target = document.getElementById(sectionId);
+    if (target) {
+      target.style.display = 'block';
+      window.scrollTo(0, 0);
+    } else {
+      console.warn("ID section tidak ditemukan:", sectionId);
+    }
+  }
+
+  function backToMain() {
+    document.querySelectorAll('.hidden-section').forEach(section => {
+      section.style.display = 'none';
+    });
+
+    document.getElementById('main-section').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
